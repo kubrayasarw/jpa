@@ -15,8 +15,8 @@ public class main {
         em.getTransaction().begin();
 
         Person person = new Person();
-        person.setName("Ignacio Andreu");
-        person.setMail("plunchete AT gmail DOT com");
+        person.setName("Kubra Yasar");
+        person.setMail("k@gmail.com");
         em.persist(person);
 
         em.getTransaction().commit();
